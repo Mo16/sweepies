@@ -1,0 +1,51 @@
+.faq {
+  background-color: #dccfc3;
+  color: #444;
+  cursor: pointer;
+  padding: 4px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 16px;
+  transition: 0.4s;
+}
+
+.on, .faq:hover {
+  background-color: #dccfc3;
+}
+
+.panel {
+  display: none;
+  padding: 0px 6px;
+  background-color: #1d1d1d;
+  padding-top: 15px;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+  color: #dccfc3;
+  font-size: 20px;
+  font-family: Antic, sans-serif;
+  text-align: center;
+}
+
+.faqelement {
+  margin: auto;
+  float: initial;
+  margin-bottom: 20px;
+}
+
+.btn:hover {
+  color: #dccfc3;
+}
+
+.btn-check:focus + .btn-dark, .btn-dark:focus {
+  color: #1d1d1d;
+  background-color: #1d1d1d;
+  border-color: #1a1e21;
+  box-shadow: 0 0 0 .25rem rgba(66,70,73,.5);
+}
+
+.btn-dark {
+  color: #000000;
+}
+

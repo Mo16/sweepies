@@ -1,0 +1,15 @@
+.rewards {
+  color: #dccfc3;
+  font-family: Antic, sans-serif;
+  font-size: 22.2px;
+  line-height: 23px;
+  padding-top: 12px;
+}
+
+.rewards.header {
+  color: #afccfc;
+  font-family: Magneto;
+  font-size: 42px;
+  line-height: 47.75px;
+}
+
