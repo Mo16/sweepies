@@ -39,534 +39,537 @@
     <script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
 </head>
 
-<body style="background: #1d1d1d;">
-    <nav class="navbar navbar-light navbar-expand-md">
-        <div class="container-fluid"><button data-bs-toggle="collapse" class="navbar-toggler"
-                data-bs-target="#navcol-1"><span class="visually-hidden">Toggle navigation</span><span
-                    class="navbar-toggler-icon"></span></button><button class="btn order-last" type="button">CONNECT
-                WALLET</button>
-            <div class="collapse navbar-collapse" id="navcol-1">
-                <ul class="navbar-nav">
-                    <li class="nav-item"><a class="nav-link" href="index.html">HOME</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#vault">VAULT</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#timeline">FLOORMAP</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#faqs">FAQ</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#faqs">CONTACT</a></li>
-                </ul>
-            </div>
+
+
+
+<body  style="background: #1d1d1d;">
+
+    <script>
+        $(window).on("load",function(){
+            $(".loader").fadeOut(1000);
+            $(".main").fadeIn(1000);
+        })
+    </script>
+
+    <div class="loader">
+        <div>
+            <img class="img-fluid text-center" width="20%" src="/assets/broom.gif" alt="">
         </div>
-    </nav>
+    </div>
 
-
-    <section class="showcase">
-        <div class="video-container">
-            <video src="/assets/videos/Broom, Janitor, Mop Walk.mp4" defaultMuted playsinline autoplay muted
-                loop></video>
-        </div>
-        <div class="content">
-            <img data-aos="fade-right" class="img-fluid" src="/assets/Sweepies Text Animation.gif" alt="">
-
-        </div>
-    </section>
-
-
-
-    <!-- <div class="d-xl-flex justify-content-xl-center">
-        
-         <img class="img-fluid d-xxl-flex" width="100%" src="assets/videos/bg.gif"> 
-        <div class="video-bg">
-            <video class="d-xxl-flex img-fluid" loop autoplay muted
-                src="/assets/videos/Broom, Janitor, Mop Walk.mp4"></video>
-
-        </div>
-
-    </div> -->
-    <!-- <section class="highlight-clean">
-        <div class="container">
-            <div class="intro">
-                <h2 class="text-center flash animated infinite" style="margin-top: 38px;line-height: 16px;font-size: 42px;">SOLD OUT!</h2>
-                <p class="text-center" style="font-size: 28px;font-family: 'Bowlby One', serif;color: #323437;">8888/8888</p>
-                <div class="buttons"><a class="btn btn-light" role="button" href="https://discord.com/invite/9qxMMNAjVe" style="margin-top: 1px;">JOIN THE DISCORD</a><a class="btn btn-light" role="button" href="https://opensea.io/collection/degentoonz-collection" style="margin-top: 1px;">BUY ON OPENSEA</a></div>
-            </div>
-        </div>
-    </section> -->
-    <section id="about" class="about">
-
-
-        <div class="container">
-            <div class="row my-5">
-                <div class="col text-center " data-aos-offset="200" data-aos="fade-in">
+    <div class="main">
+        <nav class="navbar navbar-light navbar-expand-md">
+            <div class="container-fluid"><button data-bs-toggle="collapse" class="navbar-toggler"
+                    data-bs-target="#navcol-1"><span class="visually-hidden">Toggle navigation</span><span
+                        class="navbar-toggler-icon"></span></button><button class="btn order-last" type="button">CONNECT
+                    WALLET</button>
+                <div class="collapse navbar-collapse" id="navcol-1">
+                    <ul class="navbar-nav">
+                        <li class="nav-item"><a class="nav-link" href="index.html">HOME</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#vault">VAULT</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#timeline">FLOORMAP</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#faqs">FAQ</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#faqs">CONTACT</a></li>
+                    </ul>
                 </div>
             </div>
+        </nav>
 
-            <div class="row" data-aos-offset="200" data-aos="fade-in">
-                <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 align-self-center">
-
-                    <h2 class="text-center rewards header ">About us</h2>
-
-                    <p class="text-center rewards">
-                        We are a collection of 9,999 blockchain Janitor’s coming to meme on Ethereum with the goal of
-                        sweeping floors across the metaverse. There is so much potential in the Metaverse and so many
-                        undervalued projects within this oversaturated PFP space. We aim to sweep blue chip floors and
-                        hold them in the Sweepie’s Vault for a full year from launch. Each week, Sweepie’s Holders will
-                        submit their Vote and the winning project will be swept.
+        <section class="showcase">
+            <div class="video-container">
+                <video src="/assets/videos/Broom, Janitor, Mop Walk.mp4" defaultMuted playsinline autoplay muted
+                    loop></video>
+            </div>
+            <div class="content">
+                <img data-aos="fade-right" class="img-fluid" src="/assets/Sweepies Text Animation.gif" alt="">
+    
+            </div>
+        </section>
+    
+    
+    
+        <!-- <div class="d-xl-flex justify-content-xl-center">
+            
+             <img class="img-fluid d-xxl-flex" width="100%" src="assets/videos/bg.gif"> 
+            <div class="video-bg">
+                <video class="d-xxl-flex img-fluid" loop autoplay muted
+                    src="/assets/videos/Broom, Janitor, Mop Walk.mp4"></video>
+    
+            </div>
+    
+        </div> -->
+        <!-- <section class="highlight-clean">
+            <div class="container">
+                <div class="intro">
+                    <h2 class="text-center flash animated infinite" style="margin-top: 38px;line-height: 16px;font-size: 42px;">SOLD OUT!</h2>
+                    <p class="text-center" style="font-size: 28px;font-family: 'Bowlby One', serif;color: #323437;">8888/8888</p>
+                    <div class="buttons"><a class="btn btn-light" role="button" href="https://discord.com/invite/9qxMMNAjVe" style="margin-top: 1px;">JOIN THE DISCORD</a><a class="btn btn-light" role="button" href="https://opensea.io/collection/degentoonz-collection" style="margin-top: 1px;">BUY ON OPENSEA</a></div>
+                </div>
+            </div>
+        </section> -->
+        <section id="about" class="about">
+    
+    
+            <div class="container">
+                <div class="row my-5">
+                    <div class="col text-center " data-aos-offset="200" data-aos="fade-in">
+                    </div>
+                </div>
+    
+                <div class="row" data-aos-offset="200" data-aos="fade-in">
+                    <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 align-self-center">
+    
+                        <h2 class="text-center rewards header ">About us</h2>
+    
+                        <p class="text-center rewards">
+                            We are a collection of 9,999 blockchain Janitor’s coming to meme on Ethereum with the goal of
+                            sweeping floors across the metaverse. There is so much potential in the Metaverse and so many
+                            undervalued projects within this oversaturated PFP space. We aim to sweep blue chip floors and
+                            hold them in the Sweepie’s Vault for a full year from launch. Each week, Sweepie’s Holders will
+                            submit their Vote and the winning project will be swept.
+                        </p>
+    
+    
+                    </div>
+                    <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+                        <img src="/assets/videos/headspin.gif" width="100%" class="img-fluid" alt="">
+                    </div>
+                </div>
+            </div>
+        </section>
+    
+        <section id="rewards" class="rewards" style="background: #1d1d1d;margin-top: 22px;margin-bottom: 45px;">
+            <div class="container" style="background: #1d1d1d;">
+                <div class="intro">
+                    <h2 class="text-center rewards header">Vote for your Right to Sweep</h2>
+                    <p class="text-center rewards" data-aos="fade-up">We want to showcase the power of web3 and digital
+                        ownership. Our voting system will not be a silly poll on discord or telegram. A smart contract will
+                        be created for this purpose. When it is time to vote, you, the Sweepie Holder, will visit our
+                        website and click on the “Vote” tab. You will then connect your wallet and your holdings will be
+                        verified. You will be presented with the nominees, make your selection, sign the message, then your
+                        done! We will work on creating a visual poll for our voting system and the winner will be projected
+                        once voting concludes. Pretty sweep, huh?</p>
+                </div>
+                <div id="vault" class="intro">
+                    <h2 class="text-center rewards header"
+                        style="color: #afccfc;font-family: 'Magneto', serif;font-size: 42px;line-height: 47.75px;">
+                        Sweepie’s Vault</h2>
+                    <p data-aos="fade-up" class="text-center rewards"
+                        style="color: #dccfc3;font-family: Antic, sans-serif;font-size: 22.2px;line-height: 23px;padding-top: 12px;">
+                        We are a community and together we will do the hard work of cleaning up the dirty NFT floors. We are
+                        here to find value in undervalued projects and have fun at the same time. The winning project will
+                        be swept and stored into the Sweepie’s Vault. Our metrics and tokenomics can be found, in detail, in
+                        our Whitepaper. Once land is acquired, we will begin to create a digital vault for all Holder’s to
+                        visit and view.</p>
+                    <div class="text-center rewards">
+                        <img class="text-center" src="assets/img/1.gif" class="img-fluid">
+    
+                    </div>
+    
+                </div>
+                <div class="intro">
+                    <h2 class="text-center rewards header"
+                        style="color: #afccfc;font-family: 'Magneto', serif;font-size: 42px;line-height: 47.75px;">
+                        “Sweepstakes”</h2>
+                    <p data-aos="fade-up" class="text-center rewards"
+                        style="color: #dccfc3;font-family: Antic, sans-serif;font-size: 22.2px;line-height: 23px;padding-top: 12px;">
+                        Following our Weekly Sweep, we will celebrate with our weeks end giveaway which we call
+                        “Sweepstakes”. All verified Holders are eligible for our giveaways. We sweep to give, and we give to
+                        sweep. </p>
+                </div>
+    
+                <div class="intro">
+                    <h2 class="text-center rewards header"
+                        style="color: #afccfc;font-family: 'Magneto', serif;font-size: 42px;line-height: 47.75px;">
+                        “Founders Sweepie's”</h2>
+                    <p data-aos="fade-up" class="text-center rewards"
+                        style="color: #dccfc3;font-family: Antic, sans-serif;font-size: 22.2px;line-height: 23px;padding-top: 12px;">
+                        Our Founder’s Sweepie’s are our Genesis mints which are the first 2000 Sweepie’s. Only Gold Coin NFT
+                        holders will be able to mint these during our Presale. Unlike the rest of the collection, the
+                        Founder’s Sweepie’s will contain animated attributes as well as an animated background. Being a Gold
+                        Coin holder will increase your staking amount, thus, increasing your odds to obtain a Sweepie’s DAO
+                        token. More information about our tokenomics can be found in our Sweepie’s Whitepaper linked below.
                     </p>
-
-
                 </div>
-                <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
-                    <img src="/assets/videos/headspin.gif" width="100%" class="img-fluid" alt="">
-                </div>
+    
             </div>
-        </div>
-    </section>
-
-    <section id="rewards" class="rewards" style="background: #1d1d1d;margin-top: 22px;margin-bottom: 45px;">
-        <div class="container" style="background: #1d1d1d;">
-            <div class="intro">
-                <h2 class="text-center rewards header">Vote for your Right to Sweep</h2>
-                <p class="text-center rewards" data-aos="fade-up">We want to showcase the power of web3 and digital
-                    ownership. Our voting system will not be a silly poll on discord or telegram. A smart contract will
-                    be created for this purpose. When it is time to vote, you, the Sweepie Holder, will visit our
-                    website and click on the “Vote” tab. You will then connect your wallet and your holdings will be
-                    verified. You will be presented with the nominees, make your selection, sign the message, then your
-                    done! We will work on creating a visual poll for our voting system and the winner will be projected
-                    once voting concludes. Pretty sweep, huh?</p>
-            </div>
-            <div id="vault" class="intro">
-                <h2 class="text-center rewards header"
-                    style="color: #afccfc;font-family: 'Magneto', serif;font-size: 42px;line-height: 47.75px;">
-                    Sweepie’s Vault</h2>
-                <p data-aos="fade-up" class="text-center rewards"
-                    style="color: #dccfc3;font-family: Antic, sans-serif;font-size: 22.2px;line-height: 23px;padding-top: 12px;">
-                    We are a community and together we will do the hard work of cleaning up the dirty NFT floors. We are
-                    here to find value in undervalued projects and have fun at the same time. The winning project will
-                    be swept and stored into the Sweepie’s Vault. Our metrics and tokenomics can be found, in detail, in
-                    our Whitepaper. Once land is acquired, we will begin to create a digital vault for all Holder’s to
-                    visit and view.</p>
-            </div>
-            <div class="intro">
-                <h2 class="text-center rewards header"
-                    style="color: #afccfc;font-family: 'Magneto', serif;font-size: 42px;line-height: 47.75px;">
-                    “Sweepstakes”</h2>
-                <p data-aos="fade-up" class="text-center rewards"
-                    style="color: #dccfc3;font-family: Antic, sans-serif;font-size: 22.2px;line-height: 23px;padding-top: 12px;">
-                    Following our Weekly Sweep, we will celebrate with our weeks end giveaway which we call
-                    “Sweepstakes”. All verified Holders are eligible for our giveaways. We sweep to give, and we give to
-                    sweep. </p>
-            </div>
-
-            <div class="intro">
-                <h2 class="text-center rewards header"
-                    style="color: #afccfc;font-family: 'Magneto', serif;font-size: 42px;line-height: 47.75px;">
-                    “Founders Sweepie's”</h2>
-                <p data-aos="fade-up" class="text-center rewards"
-                    style="color: #dccfc3;font-family: Antic, sans-serif;font-size: 22.2px;line-height: 23px;padding-top: 12px;">
-                    Our Founder’s Sweepie’s are our Genesis mints which are the first 2000 Sweepie’s. Only Gold Coin NFT
-                    holders will be able to mint these during our Presale. Unlike the rest of the collection, the
-                    Founder’s Sweepie’s will contain animated attributes as well as an animated background. Being a Gold
-                    Coin holder will increase your staking amount, thus, increasing your odds to obtain a Sweepie’s DAO
-                    token. More information about our tokenomics can be found in our Sweepie’s Whitepaper linked below.
-                </p>
-            </div>
-
-        </div>
-    </section>
-    <h2 style="text-align: center;font-family: 'Magneto', serif;color: #dccfc3;border-style: none;font-size: 47px;">
-        Our Floormap<br></h2>
-    <div id="timeline" class="time-body" style="background: #1d1d1d;color: rgb(29,29,29);margin-bottom: 50px;">
-        <div class="timeline">
-            <div class="time-container right" style="width: 100%;padding-top: 0px;">
-                <div class="time-content"
-                    style="background: rgb(29,29,29);padding-right: 11px;padding-left: 11px;padding-top: 11px;">
-                    <h2
-                        style="color: #afccfc;font-family: 'Bowlby One SC', serif;font-size: 27px;padding-right: 30px;padding-left: 30px;text-align: center;">
-                        Phase I:<br></h2>
-                    <p class="text-uppercase" data-aos="fade-up" data-aos-offset="300"
-                        style="color: #dccfc3;font-family: Antic, sans-serif;font-size: 22.2px;line-height: 24px;text-align: center;">
-                        <br>- Open claims for Gold, Silver, and Bronze Sweepie’s Coins (NFT) <br><br>- Begin Minting the
-                        Founder’s (Genesis) Sweepie’s
-                        &nbsp;<br><br>- Public Mint will Proceed following Founder’s Mint-Out.<br><br>-
-                        100% sold: Work on DAO infrastructure, Voting Contract, and Staking&nbsp; <br><br></p>
-                </div>
-            </div>
-            <div class="time-container right" style="width: 100%;">
-                <div class="time-content"
-                    style="background: #1d1d1d;padding-top: 0px;padding-right: 11px;padding-left: 11px;">
-                    <h2
-                        style="color: #afccfc;font-family: 'Bowlby One SC', serif;font-size: 27px;padding-right: 28px;padding-left: 28px;text-align: center;">
-                        Phase II: <br></h2>
-                    <p class="text-uppercase" data-aos="fade-up" data-aos-offset="300"
-                        style="color: #dccfc3;font-family: Antic, sans-serif;font-size: 22.2px;line-height: 24px;text-align: center;">
-                        <br>-&nbsp; Sunday Comic Development.<br><br>- Land Acquisition.&nbsp; <br><br>- Sweepstakes
-                        (Giveaways)&nbsp;<br><br>- Avatar Development.<br><br></p>
-                </div>
-            </div>
-            <div class="time-container right" style="width: 100%;">
-                <div class="time-content"
-                    style="background: #1d1d1d;padding-top: 0px;padding-right: 11px;padding-left: 11px;">
-                    <h2
-                        style="font-family: 'Bowlby One SC', serif;color: #afccfc;font-size: 27px;padding-right: 34px;padding-left: 34px;text-align: center;">
-                        WEN MINT?:&nbsp;<br></h2>
-                    <p class="text-uppercase" data-aos="fade-up" data-aos-offset="300"
-                        style="color: #dccfc3;font-family: Antic, sans-serif;font-size: 22.2px;line-height: 24px;text-align: center;">
-                        <br>- TBA.&nbsp; <br><br>- Founder’s Sweepie’s only available to Sweepie Coin NFT holder’s –
-                        0.069 Eth<br><br>- Public Mint - .08 Eth <br><br></p>
-                </div>
-            </div>
-            <!-- <div class="time-container right" style="width: 100%;padding-top: 0px;">
-                <div class="time-content" style="background: #1d1d1d;padding-right: 11px;padding-left: 11px;">
-                    <h2
-                        style="font-family: 'Bowlby One SC', serif;color: #afccfc;font-size: 27px;padding-right: 30px;padding-left: 30px;text-align: center;">
-                        PHASE IV : TOON TOWN<br></h2>
-                    <p class="text-uppercase" data-aos="fade-up" data-aos-offset="600"
-                        style="color: #dccfc3;font-family: Antic, sans-serif;font-size: 22.2px;line-height: 24px;text-align: center;">
-                        <br>- The Metaverse action begins! DAO voting starts construction of TOON TOWN in the metaverse.
-                        (Buying land on dao desired platform)<br><br>- HODLERS WILL BEGIN TO RECEIVE $TOON TOKEN FOR
-                        AMOUNT OF HODLING TIME&nbsp;<br><br>- airdrop to all HODLERS (Tier based &amp; Metaverse
-                        ready)<br><br>- Metaverse is launched and Constitution of TOON TOWN<br>curated in a METAVERSE
-                        meet up.<br><br></p>
-                </div>
-            </div>
-            <div class="time-container right" style="width: 100%;">
-                <div class="time-content"
-                    style="background: #1d1d1d;padding-top: 0px;padding-right: 11px;padding-left: 11px;">
-                    <h2
-                        style="font-family: 'Bowlby One SC', serif;color: #afccfc;font-size: 27px;padding-right: 31px;padding-left: 31px;text-align: center;">
-                        PHASE V: The Next Generation<br></h2>
-                    <p class="text-uppercase" data-aos="fade-up" data-aos-offset="600"
-                        style="color: #dccfc3;font-family: Antic, sans-serif;font-size: 22.2px;line-height: 24px;text-align: center;">
-                        <br>-&nbsp; DEGENTOONZ Drop II is released.<br><br>-&nbsp; Building a foundation for Play 2 Earn
-                        <br><br></p>
-                </div>
-            </div> -->
-        </div>
-    </div>
-    <h2
-        style="text-align: center;font-family: 'Bowlby One SC', serif;color: #dccfc3;border-style: none;font-size: 37px;">
-        Our NFTs<br></h2>
-    <div class="rare">
-        <div class="row d-xxl-flex justify-content-xxl-center" style="margin-right: 0px;margin-left: 0px;">
-            <div class="col-xxl-3" style="padding-right: 0px;padding-left: 0px;"><img data-aos="fade-up"
-                    data-aos-delay="300" data-aos-once="true" src="assets/WebsiteSweepies/sweep2.png"
-                    style="width: 98%;">
-                <!-- <p class="text-center"
-                    style="margin-bottom: 25px;font-family: 'Dela Gothic One', serif;color: #dccfc3;margin-top: 31px;font-size: 20px;line-height: 27.5px;padding-right: 15px;padding-left: 15px;">
-                    MINT THIS PAWS TOKEN&nbsp; WIN&nbsp;$15K IN ETH<br></p> -->
-            </div>
-            <div class="col-xxl-3" style="padding-right: 0px;padding-left: 0px;"><img data-aos="fade-up"
-                    data-aos-delay="450" data-aos-once="true" src="assets/WebsiteSweepies/sweep3.png"
-                    style="width: 98%;">
-                <!-- <p class="text-center"
-                    style="text-align: center;margin-bottom: 25px;font-family: 'Dela Gothic One', serif;color: #ffe763;margin-top: 31px;font-size: 20px;line-height: 27.5px;padding-right: 15px;padding-left: 15px;">
-                    MINT THE GOLDEN PAWS&nbsp;WIN&nbsp;$20K IN ETH<br></p> -->
-            </div>
-            <div class="col-xxl-3" style="padding-right: 0px;padding-left: 0px;"><img class="img-fluid"
-                    data-aos="fade-up" data-aos-delay="550" data-aos-once="true" src="assets/WebsiteSweepies/sweep4.png"
-                    style="width: 98%;">
-                <!-- <p class="text-center"
-                    style="text-align: center;margin-bottom: 25px;font-family: 'Dela Gothic One', serif;color: #dccfc3;margin-top: 31px;font-size: 20px;line-height: 27.5px;padding-right: 15px;padding-left: 15px;">
-                    MINT THIS PAWS TOKEN&nbsp; WIN&nbsp;$15K IN ETH<br></p> -->
-            </div>
-        </div>
-    </div>
-    <br>
-    <section style="background: #1d1d1d;">
-        <div class="container bg-transparent">
-            <div class="row mx-auto my-auto justify-content-center">
-                <div id="recipeCarousel" class="carousel slide" data-bs-ride="carousel">
-                    <div class="carousel-inner" role="listbox">
-                        <div class="carousel-item active">
-                            <div class="col-md-3">
-                                <div class="card">
-                                    <div class="card-img">
-                                        <img src="assets/NewSiteFiles/Sweepie'sExamples/vintage3.png" class="img-fluid">
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="carousel-item">
-                            <div class="col-md-3">
-                                <div class="card">
-                                    <div class="card-img">
-                                        <img src="assets/NewSiteFiles/Sweepie'sExamples/WallstreetSweep.gif"
-                                            class="img-fluid">
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="carousel-item">
-                            <div class="col-md-3">
-                                <div class="card">
-                                    <div class="card-img">
-                                        <img src="assets/img/1.gif" class="img-fluid">
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="carousel-item">
-                            <div class="col-md-3">
-                                <div class="card">
-                                    <div class="card-img">
-                                        <img src="assets/img/2.gif" class="img-fluid">
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="carousel-item">
-                            <div class="col-md-3">
-                                <div class="card">
-                                    <div class="card-img">
-                                        <img src="assets/NewSiteFiles/Sweepie'sExamples/king.gif" class="img-fluid">
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="carousel-item">
-                            <div class="col-md-3">
-                                <div class="card">
-                                    <div class="card-img">
-                                        <img src="assets/NewSiteFiles/Sweepie'sExamples/SweepnosB&R.gif"
-                                            class="img-fluid">
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="carousel-item">
-                            <div class="col-md-3">
-                                <div class="card">
-                                    <div class="card-img">
-                                        <img src="assets/NewSiteFiles/Sweepie'sExamples/DiamondHandRainbow.gif"
-                                            class="img-fluid">
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="carousel-item">
-                            <div class="col-md-3">
-                                <div class="card">
-                                    <div class="card-img">
-                                        <img src="assets/NewSiteFiles/Sweepie'sExamples/comicsweep8.png"
-                                            class="img-fluid">
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="carousel-item">
-                            <div class="col-md-3">
-                                <div class="card">
-                                    <div class="card-img">
-                                        <img src="assets/NewSiteFiles/Sweepie'sExamples/comicsweep9.png"
-                                            class="img-fluid">
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="carousel-item">
-                            <div class="col-md-3">
-                                <div class="card">
-                                    <div class="card-img">
-                                        <img src="assets/NewSiteFiles/Sweepie'sExamples/comicsweepieWSB.png"
-                                            class="img-fluid">
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="carousel-item">
-                            <div class="col-md-3">
-                                <div class="card">
-                                    <div class="card-img">
-                                        <img src="assets/NewSiteFiles/Sweepie'sExamples/comicsweepjailbird.png"
-                                            class="img-fluid">
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <a class="carousel-control-prev bg-transparent w-aut" href="#recipeCarousel" role="button"
-                        data-bs-slide="prev">
-                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                    </a>
-                    <a class="carousel-control-next bg-transparent w-aut" href="#recipeCarousel" role="button"
-                        data-bs-slide="next">
-                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                    </a>
-                </div>
-            </div>
-    </section>
-    <section class="d-xxl-flex justify-content-xxl-center bg-light-gray" id="team"
-        style="padding-top: 0px;background: #1d1d1d;padding-bottom: 33px;">
-        <div class="container-fluid"
-            style="background: #1d1d1d;margin-right: 0px;margin-left: 0px;padding-right: 0px;padding-left: 0px;">
-            <div class="row" style="margin-right: 0px;margin-left: 0px;">
-                <div class="col-lg-12 text-center" style="padding-right: 0px;padding-left: 0px;">
-                    <h2 data-aos="fade-up" data-aos-delay="350" data-aos-once="true" class="section-heading"
-                        style="font-family: 'Dela Gothic One', serif;font-size: 46px;margin-top: 39px;color: #dccfc3;padding-bottom: 6px;margin-bottom: 39px;">
-                        Meet the Team</h2>
-                </div>
-            </div>
-            <div class="row d-sm-flex d-xl-flex d-xxl-flex justify-content-sm-center justify-content-xl-center justify-content-xxl-center"
-                style="margin-right: 0px;margin-left: 0px;">
-                <div class="col-sm-4 col-xxl-5 d-xxl-flex justify-content-xxl-end"
-                    style="padding-right: 20px;padding-left: 14px;width: 50%;">
-                    <div class="team-member"><img class="rounded-circle img-fluid shadow-lg" data-aos="fade-up"
-                            data-aos-delay="400" data-aos-once="true" src="assets/NewSiteFiles/Team Images/Doc Alt.png"
-                            width="300px ">
-                        <h4 style="color: #dccfc3;">Doc Alt @AltLedger</h4>
-                        <p class="text-muted" style="font-size: 17px;">Co-Founder/Artist</p>
-                        <ul class="list-inline list-inline social-buttons">
-                            <li class="list-inline-item"> <a href="https://www.twitter.com/AltLedger"><i
-                                        class="fa fa-twitter" style="color: #afccfc;"></i></a></li>
-
-                        </ul>
+        </section>
+        <h2 style="text-align: center;font-family: 'Magneto', serif;color: #dccfc3;border-style: none;font-size: 47px;">
+            Our Floormap<br></h2>
+        <div id="timeline" class="time-body" style="background: #1d1d1d;color: rgb(29,29,29);margin-bottom: 50px;">
+            <div class="timeline">
+                <div class="time-container right" style="width: 100%;padding-top: 0px;">
+                    <div class="time-content"
+                        style="background: rgb(29,29,29);padding-right: 11px;padding-left: 11px;padding-top: 11px;">
+                        <h2
+                            style="color: #afccfc;font-family: 'Bowlby One SC', serif;font-size: 27px;padding-right: 30px;padding-left: 30px;text-align: center;">
+                            Phase I:<br></h2>
+                        <p class="text-uppercase" data-aos="fade-up" data-aos-offset="300"
+                            style="color: #dccfc3;font-family: Antic, sans-serif;font-size: 22.2px;line-height: 24px;text-align: center;">
+                            <br>- Open claims for Gold, Silver, and Bronze Sweepie’s Coins (NFT) <br><br>- Begin Minting the
+                            Founder’s (Genesis) Sweepie’s
+                            &nbsp;<br><br>- Public Mint will Proceed following Founder’s Mint-Out.<br><br>-
+                            100% sold: Work on DAO infrastructure, Voting Contract, and Staking&nbsp; <br><br></p>
                     </div>
                 </div>
-                <div class="col-sm-4 col-xxl-5 d-xxl-flex justify-content-xxl-start"
-                    style="padding-right: 14px;padding-left: 20px;width: 50%;">
-                    <div class="team-member" style="margin-top: 2px;"><img class="rounded-circle img-fluid shadow-lg"
-                            data-aos="fade-up" data-aos-delay="400" data-aos-once="true"
-                            src="assets/NewSiteFiles/Team Images/DreNFTs.png" width="300px">
-                        <h4 style="color: #dccfc3;">Dre @AndreNFTs</h4>
-                        <p class="text-muted" style="font-size: 17px;">Co-Founder</p>
-                        <ul class="list-inline list-inline social-buttons">
-
-                        </ul>
+                <div class="time-container right" style="width: 100%;">
+                    <div class="time-content"
+                        style="background: #1d1d1d;padding-top: 0px;padding-right: 11px;padding-left: 11px;">
+                        <h2
+                            style="color: #afccfc;font-family: 'Bowlby One SC', serif;font-size: 27px;padding-right: 28px;padding-left: 28px;text-align: center;">
+                            Phase II: <br></h2>
+                        <p class="text-uppercase" data-aos="fade-up" data-aos-offset="300"
+                            style="color: #dccfc3;font-family: Antic, sans-serif;font-size: 22.2px;line-height: 24px;text-align: center;">
+                            <br>-&nbsp; Sunday Comic Development.<br><br>- Land Acquisition.&nbsp; <br><br>- Sweepstakes
+                            (Giveaways)&nbsp;<br><br>- Avatar Development.<br><br></p>
                     </div>
                 </div>
 
-
-            </div>
-            <div class="row d-sm-flex d-xl-flex d-xxl-flex justify-content-sm-center justify-content-xl-center justify-content-xxl-center"
-                style="margin-right: 0px;margin-left: 0px;">
-                <div class="col-sm-4 col-xxl-5 d-xxl-flex justify-content-xxl-end"
-                    style="padding-right: 20px;padding-left: 14px;width: 50%;">
-                    <div class="team-member"><img class="rounded-circle img-fluid shadow-lg" data-aos="fade-up"
-                            data-aos-delay="400" data-aos-once="true" src="assets/NewSiteFiles/Team Images/Guru.png"
-                            width="300px ">
-                        <h4 style="color: #dccfc3;">Guru @fillukis</h4>
-                        <p class="text-muted" style="font-size: 17px;">Comic Lead/ Community Mod</p>
-                        <ul class="list-inline list-inline social-buttons">
-                            <li class="list-inline-item"> <a href="https://www.twitter.com/fillukis"><i
-                                        class="fa fa-twitter" style="color: #afccfc;"></i></a></li>
-
-                        </ul>
+                <!-- <div class="time-container right" style="width: 100%;padding-top: 0px;">
+                    <div class="time-content" style="background: #1d1d1d;padding-right: 11px;padding-left: 11px;">
+                        <h2
+                            style="font-family: 'Bowlby One SC', serif;color: #afccfc;font-size: 27px;padding-right: 30px;padding-left: 30px;text-align: center;">
+                            PHASE IV : TOON TOWN<br></h2>
+                        <p class="text-uppercase" data-aos="fade-up" data-aos-offset="600"
+                            style="color: #dccfc3;font-family: Antic, sans-serif;font-size: 22.2px;line-height: 24px;text-align: center;">
+                            <br>- The Metaverse action begins! DAO voting starts construction of TOON TOWN in the metaverse.
+                            (Buying land on dao desired platform)<br><br>- HODLERS WILL BEGIN TO RECEIVE $TOON TOKEN FOR
+                            AMOUNT OF HODLING TIME&nbsp;<br><br>- airdrop to all HODLERS (Tier based &amp; Metaverse
+                            ready)<br><br>- Metaverse is launched and Constitution of TOON TOWN<br>curated in a METAVERSE
+                            meet up.<br><br></p>
                     </div>
                 </div>
-                <div class="col-sm-4 col-xxl-5 d-xxl-flex justify-content-xxl-start"
-                    style="padding-right: 14px;padding-left: 20px;width: 50%;">
-                    <div class="team-member" style="margin-top: 2px;"><img class="rounded-circle img-fluid shadow-lg"
-                            data-aos="fade-up" data-aos-delay="400" data-aos-once="true"
+                <div class="time-container right" style="width: 100%;">
+                    <div class="time-content"
+                        style="background: #1d1d1d;padding-top: 0px;padding-right: 11px;padding-left: 11px;">
+                        <h2
+                            style="font-family: 'Bowlby One SC', serif;color: #afccfc;font-size: 27px;padding-right: 31px;padding-left: 31px;text-align: center;">
+                            PHASE V: The Next Generation<br></h2>
+                        <p class="text-uppercase" data-aos="fade-up" data-aos-offset="600"
+                            style="color: #dccfc3;font-family: Antic, sans-serif;font-size: 22.2px;line-height: 24px;text-align: center;">
+                            <br>-&nbsp; DEGENTOONZ Drop II is released.<br><br>-&nbsp; Building a foundation for Play 2 Earn
+                            <br><br></p>
+                    </div>
+                </div> -->
+            </div>
+        </div>
+        <h2
+            style="text-align: center;font-family: 'Bowlby One SC', serif;color: #dccfc3;border-style: none;font-size: 37px;">
+            Our NFTs<br></h2>
+        <div class="rare">
+            <div class="row d-xxl-flex justify-content-xxl-center" style="margin-right: 0px;margin-left: 0px;">
+                <div class="col-xxl-3" style="padding-right: 0px;padding-left: 0px;"><img data-aos="fade-up"
+                        data-aos-delay="300" data-aos-once="true" src="assets/WebsiteSweepies/sweep2.png"
+                        style="width: 98%;">
+                    <!-- <p class="text-center"
+                        style="margin-bottom: 25px;font-family: 'Dela Gothic One', serif;color: #dccfc3;margin-top: 31px;font-size: 20px;line-height: 27.5px;padding-right: 15px;padding-left: 15px;">
+                        MINT THIS PAWS TOKEN&nbsp; WIN&nbsp;$15K IN ETH<br></p> -->
+                </div>
+                <div class="col-xxl-3" style="padding-right: 0px;padding-left: 0px;"><img data-aos="fade-up"
+                        data-aos-delay="450" data-aos-once="true" src="assets/WebsiteSweepies/sweep3.png"
+                        style="width: 98%;">
+                    <!-- <p class="text-center"
+                        style="text-align: center;margin-bottom: 25px;font-family: 'Dela Gothic One', serif;color: #ffe763;margin-top: 31px;font-size: 20px;line-height: 27.5px;padding-right: 15px;padding-left: 15px;">
+                        MINT THE GOLDEN PAWS&nbsp;WIN&nbsp;$20K IN ETH<br></p> -->
+                </div>
+                <div class="col-xxl-3" style="padding-right: 0px;padding-left: 0px;"><img class="img-fluid"
+                        data-aos="fade-up" data-aos-delay="550" data-aos-once="true" src="assets/WebsiteSweepies/sweep4.png"
+                        style="width: 98%;">
+                    <!-- <p class="text-center"
+                        style="text-align: center;margin-bottom: 25px;font-family: 'Dela Gothic One', serif;color: #dccfc3;margin-top: 31px;font-size: 20px;line-height: 27.5px;padding-right: 15px;padding-left: 15px;">
+                        MINT THIS PAWS TOKEN&nbsp; WIN&nbsp;$15K IN ETH<br></p> -->
+                </div>
+            </div>
+        </div>
+        <br>
+        <section style="background: #1d1d1d;">
+            <div class="container bg-transparent">
+                <div class="row mx-auto my-auto justify-content-center">
+                    <div id="recipeCarousel" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-inner" role="listbox">
+                            <div class="carousel-item active">
+                                <div class="col-md-3">
+                                    <div class="card">
+                                        <div class="card-img">
+                                            <img src="assets/NewSiteFiles/Sweepie'sExamples/vintage3.png" class="img-fluid">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="col-md-3">
+                                    <div class="card">
+                                        <div class="card-img">
+                                            <img src="assets/NewSiteFiles/Sweepie'sExamples/WallstreetSweep.gif"
+                                                class="img-fluid">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="col-md-3">
+                                    <div class="card">
+                                        <div class="card-img">
+                                            <img src="assets/NewSiteFiles/Sweepie'sExamples/melt.gif" class="img-fluid">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="col-md-3">
+                                    <div class="card">
+                                        <div class="card-img">
+                                            <img src="assets//NewSiteFiles/Sweepie'sExamples/vintage3.png" class="img-fluid">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="col-md-3">
+                                    <div class="card">
+                                        <div class="card-img">
+                                            <img src="assets/NewSiteFiles/Sweepie'sExamples/king.gif" class="img-fluid">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="col-md-3">
+                                    <div class="card">
+                                        <div class="card-img">
+                                            <img src="assets/NewSiteFiles/Sweepie'sExamples/SweepnosB&R.gif"
+                                                class="img-fluid">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="col-md-3">
+                                    <div class="card">
+                                        <div class="card-img">
+                                            <img src="assets/NewSiteFiles/Sweepie'sExamples/DiamondHandRainbow.gif"
+                                                class="img-fluid">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="col-md-3">
+                                    <div class="card">
+                                        <div class="card-img">
+                                            <img src="assets/NewSiteFiles/Sweepie'sExamples/comicsweep8.png"
+                                                class="img-fluid">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="col-md-3">
+                                    <div class="card">
+                                        <div class="card-img">
+                                            <img src="assets/NewSiteFiles/Sweepie'sExamples/comicsweep9.png"
+                                                class="img-fluid">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="col-md-3">
+                                    <div class="card">
+                                        <div class="card-img">
+                                            <img src="assets/NewSiteFiles/Sweepie'sExamples/comicsweepieWSB.png"
+                                                class="img-fluid">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="col-md-3">
+                                    <div class="card">
+                                        <div class="card-img">
+                                            <img src="assets/NewSiteFiles/Sweepie'sExamples/comicsweepjailbird.png"
+                                                class="img-fluid">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <a class="carousel-control-prev bg-transparent w-aut" href="#recipeCarousel" role="button"
+                            data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        </a>
+                        <a class="carousel-control-next bg-transparent w-aut" href="#recipeCarousel" role="button"
+                            data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        </a>
+                    </div>
+                </div>
+        </section>
+        <section class="d-xxl-flex justify-content-xxl-center bg-light-gray" id="team"
+            style="padding-top: 0px;background: #1d1d1d;padding-bottom: 33px;">
+            <div class="container-fluid"
+                style="background: #1d1d1d;margin-right: 0px;margin-left: 0px;padding-right: 0px;padding-left: 0px;">
+                <div class="row" style="margin-right: 0px;margin-left: 0px;">
+                    <div class="col-lg-12 text-center" style="padding-right: 0px;padding-left: 0px;">
+                        <h2 data-aos="fade-up" data-aos-delay="350" data-aos-once="true" class="section-heading"
+                            style="font-family: 'Dela Gothic One', serif;font-size: 46px;margin-top: 39px;color: #dccfc3;padding-bottom: 6px;margin-bottom: 39px;">
+                            Meet the Team</h2>
+                    </div>
+                </div>
+                <div class="row d-sm-flex d-xl-flex d-xxl-flex justify-content-sm-center justify-content-xl-center justify-content-xxl-center"
+                    style="margin-right: 0px;margin-left: 0px;">
+                    <div class="col-sm-4 col-xxl-5 d-xxl-flex justify-content-xxl-end"
+                        style="padding-right: 20px;padding-left: 14px;width: 50%;">
+                        <div class="team-member"><img class="rounded-circle img-fluid shadow-lg" data-aos="fade-up"
+                                data-aos-delay="400" data-aos-once="true" src="assets/NewSiteFiles/Team Images/Doc Alt.png"
+                                width="300px ">
+                            <h4 style="color: #dccfc3;">Doc Alt @AltLedger</h4>
+                            <p class="text-muted" style="font-size: 17px;">Co-Founder/Artist</p>
+                            <ul class="list-inline list-inline social-buttons">
+                                <li class="list-inline-item"> <a href="https://www.twitter.com/AltLedger"><i
+                                            class="fa fa-twitter" style="color: #afccfc;"></i></a></li>
+    
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-sm-4 col-xxl-5 d-xxl-flex justify-content-xxl-start"
+                        style="padding-right: 14px;padding-left: 20px;width: 50%;">
+                        <div class="team-member" style="margin-top: 2px;"><img class="rounded-circle img-fluid shadow-lg"
+                                data-aos="fade-up" data-aos-delay="400" data-aos-once="true"
+                                src="assets/NewSiteFiles/Team Images/DreNFTs.png" width="300px">
+                            <h4 style="color: #dccfc3;">Dre @AndreNFTs</h4>
+                            <p class="text-muted" style="font-size: 17px;">Co-Founder</p>
+                            <ul class="list-inline list-inline social-buttons">
+    
+                            </ul>
+                        </div>
+                    </div>
+    
+    
+                </div>
+                <div class="row d-sm-flex d-xl-flex d-xxl-flex justify-content-sm-center justify-content-xl-center justify-content-xxl-center"
+                    style="margin-right: 0px;margin-left: 0px;">
+                    <div class="col-sm-4 col-xxl-5 d-xxl-flex justify-content-xxl-end"
+                        style="padding-right: 20px;padding-left: 14px;width: 50%;">
+                        <div class="team-member"><img class="rounded-circle img-fluid shadow-lg" data-aos="fade-up"
+                                data-aos-delay="400" data-aos-once="true" src="assets/NewSiteFiles/Team Images/Guru.png"
+                                width="300px ">
+                            <h4 style="color: #dccfc3;">Guru @fillukis</h4>
+                            <p class="text-muted" style="font-size: 17px;">Comic Lead/ Community Mod</p>
+                            <ul class="list-inline list-inline social-buttons">
+                                <li class="list-inline-item"> <a href="https://www.twitter.com/fillukis"><i
+                                            class="fa fa-twitter" style="color: #afccfc;"></i></a></li>
+    
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-sm-4 col-xxl-5 d-xxl-flex justify-content-xxl-start"
+                        style="padding-right: 14px;padding-left: 20px;width: 50%;">
+                        <div class="team-member" style="margin-top: 2px;"><img class="rounded-circle img-fluid shadow-lg"
+                                data-aos="fade-up" data-aos-delay="400" data-aos-once="true"
+                                data-aos-delay="400" data-aos-once="true" src="assets/NewSiteFiles/Team Images/DraeBob.png"
+                                width="300px ">
+                                <h4 style="color: #dccfc3;">DraeBob @Handler_NFT</h4>
+                                <p class="text-muted" style="font-size: 17px;">Advisor</p>
+    
+                            </ul>
+                        </div>
+                    </div>
+    
+    
+                </div>
+                <div class="row d-sm-flex d-xl-flex d-xxl-flex justify-content-sm-center justify-content-xl-center justify-content-xxl-center"
+                    style="margin-right: 0px;margin-left: 0px;">
+                    <div class="col-sm-4 col-xxl-5 d-xxl-flex justify-content-xxl-end"
+                        style="padding-right: 20px;padding-left: 14px;width: 50%;">
+                        <div class="team-member"><img class="rounded-circle img-fluid shadow-lg" data-aos="fade-up"
                             src="assets/NewSiteFiles/Team Images/Amresh.png" width="300px">
-                        <h4 style="color: #dccfc3;">Amresh @amresheth</h4>
-                        <p class="text-muted" style="font-size: 17px;">Advisor</p>
-                        <ul class="list-inline list-inline social-buttons">
-                            <li class="list-inline-item"> <a href="https://www.twitter.com/amresheth"><i
-                                        class="fa fa-twitter" style="color: #afccfc;"></i></a></li>
-
-                        </ul>
-                    </div>
-                </div>
-
-
-            </div>
-            <div class="row d-sm-flex d-xl-flex d-xxl-flex justify-content-sm-center justify-content-xl-center justify-content-xxl-center"
-                style="margin-right: 0px;margin-left: 0px;">
-                <div class="col-sm-4 col-xxl-5 d-xxl-flex justify-content-xxl-end"
-                    style="padding-right: 20px;padding-left: 14px;width: 50%;">
-                    <div class="team-member"><img class="rounded-circle img-fluid shadow-lg" data-aos="fade-up"
-                            data-aos-delay="400" data-aos-once="true" src="assets/NewSiteFiles/Team Images/DraeBob.png"
-                            width="300px ">
-                        <h4 style="color: #dccfc3;">DreBob @Handler_NFT</h4>
-                        <p class="text-muted" style="font-size: 17px;">Advisor</p>
-                        <ul class="list-inline list-inline social-buttons">
-
-                        </ul>
-                    </div>
-                </div>
-                <div class="col-sm-4 col-xxl-5 d-xxl-flex justify-content-xxl-start"
-                    style="padding-right: 14px;padding-left: 20px;width: 50%;">
-                    <div class="team-member" style="margin-top: 2px;"><img class="rounded-circle img-fluid shadow-lg"
-                            data-aos="fade-up" data-aos-delay="400" data-aos-once="true"
-                            src="assets/NewSiteFiles/Team Images/dev2.png" width="300px">
-                        <h4 style="color: #dccfc3;">Mo @Daviral</h4>
-                        <p class="text-muted" style="font-size: 17px;">Dev</p>
-                        <ul class="list-inline list-inline social-buttons">
-                            <li class="list-inline-item"> <a href="https://www.mochoudhury.me"><i class="fa fa-globe"
-                                        style="color: #afccfc;"></i></a></li>
-                            <li class="list-inline-item"> <a href="https://www.twitter.com/mohammedch0"><i
-                                        class="fa fa-twitter" style="color: #afccfc;"></i></a></li>
-                        </ul>
-                    </div>
-                </div>
-
-
-            </div>
-
-
-    </section>
-
-    <section id="faqs" class="clean-block about-us pb-0" style="background: #1d1d1d;">
-        <div class="container" style="background: #1d1d1d;">
-            <div class="block-heading pt-5">
-                <h1 style="color: #dccfc3;text-align: center;font-family: 'Dela Gothic One', serif;">FAQ</h1>
-            </div>
-            <div class="row justify-content-center" style="margin-right: 0px;margin-left: 0px;">
-                <div class="col" style="padding-right: 0px;padding-left: 0px;">
-                    <section id="faq" style="margin: 6px;padding: 2px;">
-                        <div class="container-fluid" style="background: #1d1d1d;padding-right: 0px;padding-left: 0px;">
-                            <div class="faqelement"><button class="btn btn-dark faq" type="button"
-                                    onclick="$(this).find(&quot;i&quot;).toggleClass(&quot;fa-plus fa-minus&quot;); $(this).parent().find(&quot;.panel&quot;).slideToggle();"
-                                    style="box-shadow: none;background: #afccfc;font-family: 'Bowlby One SC', serif;text-align: center;color: rgb(0,0,0);">Wen Mint?</button>
-                                <div class="panel" style="background: #1d1d1d;">
-                                    <p>TBA<br><br></p>
-                                </div>
-                            </div>
-                            <div class="faqelement"><button class="btn btn-dark faq" type="button"
-                                    onclick="$(this).find(&quot;i&quot;).toggleClass(&quot;fa-plus fa-minus&quot;); $(this).parent().find(&quot;.panel&quot;).slideToggle();"
-                                    style="box-shadow: none;font-family: 'Bowlby One SC', serif;background: #afccfc;text-align: center;color: #1d1d1d;">Cost?</button>
-                                <div class="panel" style="background: #1d1d1d;">
-                                    <p> Founder’s Presale – 0.069 ETH <br>
-                                        Public Sale – 0.08 ETH&nbsp;</p>
-                                </div>
-                            </div>
-                            <div class="faqelement"><button class="btn btn-primary faq" type="button"
-                                    onclick="$(this).find(&quot;i&quot;).toggleClass(&quot;fa-plus fa-minus&quot;); $(this).parent().find(&quot;.panel&quot;).slideToggle();"
-                                    style="box-shadow: none;font-family: 'Bowlby One SC', serif;background: #afccfc;text-align: center;color: #1d1d1d;">Can
-                                    I buy more than 1 Toon?</button>
-                                <div class="panel" style="background: #1d1d1d;">
-                                    <p>Yes, Presale is limited to 3 Toonz per Transaction/Wallet. Public sale will have
-                                        a limit of 3 pieces per transaction. The maximum per wallet will be 10 Toonz.
-                                        This will give everyone a fair chance at mining while minimizing bot
-                                        interference.<br></p>
-                                </div>
-                            </div>
-
+                            <h4 style="color: #dccfc3;">Amresh @amresheth</h4>
+                            <p class="text-muted" style="font-size: 17px;">Advisor</p>
+                            <ul class="list-inline list-inline social-buttons">
+                                <li class="list-inline-item"> <a href="https://www.twitter.com/amresheth"><i
+                                            class="fa fa-twitter" style="color: #afccfc;"></i></a></li>
+    
+                            </ul>
                         </div>
-                    </section>
+                    </div>
+                    <div class="col-sm-4 col-xxl-5 d-xxl-flex justify-content-xxl-start"
+                        style="padding-right: 14px;padding-left: 20px;width: 50%;">
+                        <div class="team-member" style="margin-top: 2px;"><img class="rounded-circle img-fluid shadow-lg"
+                                data-aos="fade-up" data-aos-delay="400" data-aos-once="true"
+                                src="assets/NewSiteFiles/Team Images/dev2.png" width="300px">
+                            <h4 style="color: #dccfc3;">Mo @Daviral</h4>
+                            <p class="text-muted" style="font-size: 17px;">Dev</p>
+                            <ul class="list-inline list-inline social-buttons">
+                                <li class="list-inline-item"> <a href="https://www.mochoudhury.me"><i class="fa fa-globe"
+                                            style="color: #afccfc;"></i></a></li>
+                                <li class="list-inline-item"> <a href="https://www.twitter.com/mohammedch0"><i
+                                            class="fa fa-twitter" style="color: #afccfc;"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+    
+    
                 </div>
+    
+    
+        </section>
+    
+        <section id="faqs" class="clean-block about-us pb-0" style="background: #1d1d1d;">
+            <div class="container" style="background: #1d1d1d;">
+                <div class="block-heading pt-5">
+                    <h1 style="color: #dccfc3;text-align: center;font-family: 'Dela Gothic One', serif;">FAQ</h1>
+                </div>
+                <div class="row justify-content-center" style="margin-right: 0px;margin-left: 0px;">
+                    <div class="col" style="padding-right: 0px;padding-left: 0px;">
+                        <section id="faq" style="margin: 6px;padding: 2px;">
+                            <div class="container-fluid" style="background: #1d1d1d;padding-right: 0px;padding-left: 0px;">
+                                <div class="faqelement"><button class="btn btn-dark faq" type="button"
+                                        onclick="$(this).find(&quot;i&quot;).toggleClass(&quot;fa-plus fa-minus&quot;); $(this).parent().find(&quot;.panel&quot;).slideToggle();"
+                                        style="box-shadow: none;background: #afccfc;font-family: 'Bowlby One SC', serif;text-align: center;color: rgb(0,0,0);">Wen Mint?</button>
+                                    <div class="panel" style="background: #1d1d1d;">
+                                        <p>TBA<br><br></p>
+                                    </div>
+                                </div>
+                                <div class="faqelement"><button class="btn btn-dark faq" type="button"
+                                        onclick="$(this).find(&quot;i&quot;).toggleClass(&quot;fa-plus fa-minus&quot;); $(this).parent().find(&quot;.panel&quot;).slideToggle();"
+                                        style="box-shadow: none;font-family: 'Bowlby One SC', serif;background: #afccfc;text-align: center;color: #1d1d1d;">Cost?</button>
+                                    <div class="panel" style="background: #1d1d1d;">
+                                        <p> Founder’s Presale – 0.069 ETH <br>
+                                            Public Sale – 0.08 ETH&nbsp;</p>
+                                    </div>
+                                </div>
+
+    
+                            </div>
+                        </section>
+                    </div>
+                </div>
+                <h1 id="contact" style="color: #dccfc3;text-align: center;font-family: 'Dela Gothic One', serif;">Contact</h1>
+    
+                <p class="text-center rewards"> Join us in our Discord and follow us on Twitter. We have plenty of content
+                    on Medium and our Whitepaper can be read on our Gitbook. Come meme with us and let’s clean up the
+                    Metaverse.</p>
             </div>
-            <h1 id="contact" style="color: #dccfc3;text-align: center;font-family: 'Dela Gothic One', serif;">Contact</h1>
+    
+        </section>
+        <footer class="footer-basic" style="background: rgb(29,29,29);">
+            <div class="social"><a href="https://sweepies-nft.gitbook.io/sweepies-nft-whitepaper/"
+                    style="border-style: none;"><i class="icon ion-social-instagram"></i></a><a
+                    href="https://discord.com/invite/9qxMMNAjVe" style="border-style: none;"><i
+                        class="fab fa-discord"></i></a><a href="https://twitter.com/SweepiesNFT"
+                    style="border-style: none;"><i class="icon ion-social-twitter"></i></a></div>
+            <ul class="list-inline">
+                <li class="list-inline-item"><a href="index.html">HOME</a></li>
+                <li class="list-inline-item"><a href="#timeline">ROADMAP</a></li>
+                <li class="list-inline-item"><a href="#team">CREW</a></li>
+                <li class="list-inline-item"><a href="#faqs">FAQ</a></li>
+            </ul>
+            <p class="copyright">Sweepies © 2022 <br>Created by <a href="https://mochoudhury.me/">Mo</a></p>
+        </footer>
+    </div>
 
-            <p class="text-center rewards"> Join us in our Discord and follow us on Twitter. We have plenty of content
-                on Medium and our Whitepaper can be read on our Gitbook. Come meme with us and let’s clean up the
-                Metaverse.</p>
-        </div>
 
-    </section>
-    <footer class="footer-basic" style="background: rgb(29,29,29);">
-        <div class="social"><a href="https://sweepies-nft.gitbook.io/sweepies-nft-whitepaper/"
-                style="border-style: none;"><i class="icon ion-social-instagram"></i></a><a
-                href="https://discord.com/invite/9qxMMNAjVe" style="border-style: none;"><i
-                    class="fab fa-discord"></i></a><a href="https://twitter.com/SweepiesNFT"
-                style="border-style: none;"><i class="icon ion-social-twitter"></i></a></div>
-        <ul class="list-inline">
-            <li class="list-inline-item"><a href="index.html">HOME</a></li>
-            <li class="list-inline-item"><a href="#timeline">ROADMAP</a></li>
-            <li class="list-inline-item"><a href="#team">CREW</a></li>
-            <li class="list-inline-item"><a href="#faqs">FAQ</a></li>
-        </ul>
-        <p class="copyright">Sweepies © 2022 <br>Created by <a href="https://mochoudhury.me/">Mo</a></p>
-    </footer>
     <script src="assets/bootstrap/js/bootstrap.min.js"></script>
     <script src="assets/js/bs-init.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
